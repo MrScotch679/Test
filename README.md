@@ -1,6 +1,6 @@
 # **Test ( •̀ ω •́ )✧**
 ## **Description**
-> **React, MUI, Axios, Sass were used to complete the task. <br> 
+> **React, MUI, Axios, Sass, MarvelAPI were used to complete the task. <br> 
 Gh -pages - for demonstration.** <br>
 **Description of features:**
 > - **Filtering all items**
