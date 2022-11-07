@@ -1,8 +1,10 @@
-import { Box } from '@mui/material';
+import HeroCards from "../heroCards/heroCards";
 
 const MainPage = () => {
   return (
-    <h1>HELLO</h1>
+    <>
+      <HeroCards/>
+    </>
   )
 }
 
