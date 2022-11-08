@@ -31,12 +31,12 @@ const Description = (props) => {
 
   return (
     <div key={props.description}>
-      <p 
+      <div 
         onClick={handleOpen}
         className="description"
       >
         {description}
-      </p>
+      </div>
       <Modal
         open={open}
         onClose={handleClose}
