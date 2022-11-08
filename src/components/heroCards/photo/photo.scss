@@ -1,4 +1,10 @@
 .photo {
   height: 100%; 
   width: 100%;
+  cursor: pointer;
+  &:hover {
+    box-shadow: 129px -1px 26px -1px rgba(235,13,13,0.84);
+    -webkit-box-shadow: 129px -1px 26px -1px rgba(235,13,13,0.84);
+    -moz-box-shadow: 129px -1px 26px -1px rgba(235,13,13,0.84);
+  }
 }
