@@ -23,19 +23,16 @@ const Description = (props) => {
     p: 4,
   }
 
-  let description = props.description;
-
-  if (props.description.length >= 50) {
-    description = props.description.slice(0, 50) + '...'
-  }
-
   return (
-    <div key={props.description}>
+    <div 
+      key={props.description} 
+      className="description"
+    >
       <div 
         onClick={handleOpen}
-        className="description"
+        
       >
-        {description}
+        {props.description}
       </div>
       <Modal
         open={open}

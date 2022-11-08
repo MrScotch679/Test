@@ -2,11 +2,11 @@ import './name.scss';
 
 const Name = (props) => {
   return (
-    <p 
+    <div 
       className="name"
     >
       {props.name}
-    </p>
+    </div>
   )
 }
 

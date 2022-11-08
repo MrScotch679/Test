@@ -1,6 +1,5 @@
 @import '../../../style/mixins.scss';
 
-.wiki {
+.id {
   @include max-min-height;
-  text-decoration: none;
 }

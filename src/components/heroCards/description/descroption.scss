@@ -1,7 +1,12 @@
+@import '../../../style/mixins.scss';
+
 .description {
+  @include max-min-height;
+  margin: 0;
   color: blue;
   cursor: pointer;
   &:hover {
     text-shadow: 2px 0px 8px rgba(206,89,55,0.81);
   }
+  word-wrap: initial;
 }
