@@ -25,7 +25,7 @@ const Photo = (props) => {
   const handleClose = () => setOpen(false);
 
   return (
-    <div>
+    <div className='photo-wrapper'>
       <img
         onClick={handleOpen}
         src={props.src} 

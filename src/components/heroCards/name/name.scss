@@ -1,3 +1,7 @@
+@import '../../../style/mixins.scss';
+
 .name {
+  @include max-min-height;
+  margin: 0;
   color: rgb(30, 163, 52);
 }

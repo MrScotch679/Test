@@ -8,6 +8,7 @@ import Description from "./description/description";
 import Photo from "./photo/photo";
 import Name from "./name/name";
 import Wiki from "./wiki/wiki";
+import Id from "./id/id";
 import useMarvelService from "../../services/MarvelService";
 
 const HeroCards = () => {
@@ -33,7 +34,8 @@ const HeroCards = () => {
     { 
       field: 'id', 
       headerName: 'id', 
-      width: 90 
+      width: 90,
+      renderCell: params => <Id id={params.row.id}/>, 
     },
     { 
       field: 'heroImg', 
@@ -92,6 +94,8 @@ const HeroCards = () => {
         columns={columns}
         rows={rows}
         getRowId={(row) => row.id}
+        autoHeight={true}
+        getRowHeight={() => 'auto'}
       />
     </Box>
   )
